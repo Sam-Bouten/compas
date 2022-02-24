@@ -726,7 +726,7 @@ class HalfFace(Datastructure):
             values or ranges of attribute values in the form of min/max pairs.
         data : bool, optional
             Yield the vertices and their data attributes.
-            Default is ``False``.
+            Default is False.
 
         Yields
         ------
@@ -794,10 +794,10 @@ class HalfFace(Datastructure):
         ----------
         predicate : callable
             The condition you want to evaluate. The callable takes 2 parameters:
-            ``key``, ``attr`` and should return ``True`` or ``False``.
+            `key`, `attr` and should return True or False.
         data : bool, optional
             Yield the vertices and their data attributes.
-            Default is ``False``.
+            Default is False.
 
         Yields
         ------
@@ -824,7 +824,7 @@ class HalfFace(Datastructure):
             values or ranges of attribute values in the form of min/max pairs.
         data : bool, optional
             Yield the edges and their data attributes.
-            Default is ``False``.
+            Default is False.
 
         Yields
         ------
@@ -876,10 +876,10 @@ class HalfFace(Datastructure):
         ----------
         predicate : callable
             The condition you want to evaluate. The callable takes 3 parameters:
-            ``u``, ``v``, ``attr`` and should return ``True`` or ``False``.
+            `u`, `v`, `attr` and should return True or False.
         data : bool, optional
             Yield the vertices and their data attributes.
-            Default is ``False``.
+            Default is False.
 
         Yields
         ------
@@ -906,7 +906,7 @@ class HalfFace(Datastructure):
             values or ranges of attribute values in the form of min/max pairs.
         data : bool, optional
             Yield the faces and their data attributes.
-            Default is ``False``.
+            Default is False.
 
         Yields
         ------
@@ -958,10 +958,10 @@ class HalfFace(Datastructure):
         ----------
         predicate : callable
             The condition you want to evaluate. The callable takes 2 parameters:
-            ``key``, ``attr`` and should return ``True`` or ``False``.
+            `key`, `attr` and should return True or False.
         data : bool, optional
             Yield the faces and their data attributes.
-            Default is ``False``.
+            Default is False.
 
         Yields
         ------
@@ -988,7 +988,7 @@ class HalfFace(Datastructure):
             values or ranges of attribute values in the form of min/max pairs.
         data : bool, optional
             Yield the cells and their data attributes.
-            Default is ``False``.
+            Default is False.
 
         Yields
         ------
@@ -1040,10 +1040,10 @@ class HalfFace(Datastructure):
         ----------
         predicate : callable
             The condition you want to evaluate. The callable takes 2 parameters:
-            ``key``, ``attr`` and should return ``True`` or ``False``.
+            `key`, `attr` and should return True or False.
         data : bool, optional
             Yield the cells and their data attributes.
-            Default is ``False``.
+            Default is False.
 
         Yields
         ------
